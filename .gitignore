@@ -1,0 +1,29 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Downloaded production package
+artifact.zip
+.serverless-prod
+
+dist
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# Lerna
+lerna-debug.log
+
+# Vs code
+.vs
+
+# WebStorm
+.idea
+
+#Test output
+packages/**/xunit.xml
